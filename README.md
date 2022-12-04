@@ -30,7 +30,7 @@ Am creat tabela de Feedback, ce stocheaza data si ora si reactia (1-smile, 2-fro
 -POST : postarea feedbackului unui student      #VERIFICA DACA E STUDENT
 
 Am creat tabela de Inregistrari ca tabela de legatura dintre Activitati si Utilizatori. Requesturile posibile ce se pot face din API sunt:
-# DE IMPLEMENTAT GET: AllUsersForActivity si AllActivitiesForUser
+#DE IMPLEMENTAT GET: AllUsersForActivity si AllActivitiesForUser
 
 #CERINTE
 Aplicație web acordarea de feedback continuu
