@@ -6,17 +6,18 @@ https://www.canva.com/design/DAFSBb2n5pY/No2uXp6My9Kkxj0kSgNoJA/edit?utm_content
 
 #ETAPA 2 -	Serviciu RESTful funcțional
 Pentru acces API: "https://localhost:8081/api/nume_tabela/params"
+
 Am creat tabela de Utilizatori, ce stocheaza numele, emailul ("@stud.ase.ro" - student si "@ie.ase.ro" - prof), tipul(true - prof, false -  stud),  si parola (criptata - bcrypt). Requesturile posibile ce se pot face din API sunt:
 -GET : selectarea tuturor utilizatorilor
 -GET (/:id): selectarea unui utilizator pe baza unui id       #DE IMPLEMENTAT SELECTIE PE BAZA DE NUME / EMAIL
 -POST (/register): crearea unui utilizator 
--POST (/login): logarea unui utilizator pe platforma
+-POST (/login): logarea unui utilizator pe platforma         #CU HEADERS
 -PUT (/:id): actualizarea unui utilizator pe baza unui id
 -DELETE (/:id): stergerea unui utilizator pe baza unui id
 
 Am creat tabela de Activitati, ce stocheaza denumirea, descrierea, data si ora programate, durata, codul unic de acces (#AUTOGENERARE RANDOM?). Requesturile posibile ce se pot face din API sunt:
 -GET : selectarea tuturor activitatilor
--GET (/:id): selectarea unui activitatilor pe baza unui id    #DE IMPLEMENTAT SELECTIA ACTIVITATILOR LA CARE ESTE INREGISTRAT UN ANUMIT USER
+-GET (/:id): selectarea unui activitatilor pe baza unui id    #DE IMPLEMENTAT SELECTIA ACTIVITATILOR LA CARE ESTE INREGISTRAT UN ANUMIT USER +(include)array feedbacks
 -POST : crearea unei activitati     # DE ELIMINAT 
 -POST(/:profId) : crearea unei activitati de catre un profesor (+creare Inregistrare noua)
 -POST (/:studId/:codAcces): inrolarea unui student la o anumita activitate pe baza codului de acces  (+creare Inregistrare noua)
