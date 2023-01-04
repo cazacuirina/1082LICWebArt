@@ -1,0 +1,8 @@
+.activitatileMele h2{
+    color:blue;
+}
+
+.activitatileMele h2:hover{
+    text-decoration: underline rgb(114, 139, 228) 3px;
+    font-size: 35px;
+}

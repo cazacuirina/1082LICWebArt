@@ -1,0 +1,23 @@
+.viewFeedback{
+    width: 800px;
+    height: 200px;
+    overflow-y: auto;
+    background-color: beige;
+    border: 3px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.feedback{
+    display: inline-block;
+    padding-inline-start: 5%;
+    text-align: center;
+}
+.feedback img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.feedback label{
+    display: block;
+}
