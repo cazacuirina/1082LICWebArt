@@ -1,0 +1,49 @@
+.SignInUp{
+    background-image: linear-gradient(180deg, rgb(0, 255, 213), rgb(0, 149, 255));
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;   
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.SignInUp h1{
+    margin-top: 140px;
+}
+
+.nume input{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.email input{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.parola input{
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+
+.SignInUp .submitForm #btn1{
+    display: inline-block;
+    background-color: #02a2aa;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border: 4px double #cccccc;
+    border-radius: 10px;
+    font-size: 28px;
+    cursor: pointer; 
+    margin: 5px; 
+}
+
+.SignInUp .submitForm #btn1:hover {
+    background-color: #00cfcf;
+}

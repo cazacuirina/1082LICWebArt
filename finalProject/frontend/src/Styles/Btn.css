@@ -1,0 +1,113 @@
+
+.Btn {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    background-image: url('school.jpg');
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;   
+    height: 100%;
+    width: 100%;
+}
+
+.Btn h4{
+    margin-top: 250px;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+.Btn p{
+    font-family: 'Lobster', cursive;
+}
+
+.Btn #btn1{
+    display: inline-block;
+    background-color: #00bebb;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border: 4px double #cccccc;
+    border-radius: 10px;
+    font-size: 28px;
+    cursor: pointer; 
+    margin: 5px; 
+}
+
+.Btn #btn1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.Btn #btn1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.Btn #btn1:hover {
+    background-color: #64fffc;
+}
+
+.Btn #btn1:hover span {
+    padding-right: 25px;
+}
+
+.Btn #btn1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.Btn #btn2{
+    display: inline-block;
+    background-color: #187cff;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border: 4px double #cccccc;
+    border-radius: 10px;
+    font-size: 28px;
+    cursor: pointer; 
+    margin: 5px; 
+}
+
+
+.Btn #btn2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.Btn #btn2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.Btn #btn2:hover {
+    background-color:#6aa4ef;
+}
+
+.Btn #btn2:hover span {
+    padding-right: 25px;
+}
+
+.Btn #btn2:hover span:after {
+    opacity: 1;
+    right: 0;
+}

@@ -1,0 +1,26 @@
+.reaction{
+    display: inline-block;
+    padding-inline-end: 3%;
+    padding-inline-start: 3%;
+    text-align: center;
+}
+.reaction img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.reaction button{
+    background-color: white;
+    border: 0px;
+    border-radius: 50%;
+}
+.reaction button:hover{
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .2);
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.reaction label{
+    display: block;
+    font-size: 20px;
+}

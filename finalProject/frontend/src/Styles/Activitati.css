@@ -1,0 +1,66 @@
+.bg{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    font-family: monospace;
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;   
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.activitati{
+    background-color:rgba(255, 235, 229, 0.6);
+    position: absolute;
+    align-self: center;
+    margin-top: 3%;
+    margin-left: 33%;
+    border: 50px double rgba(121, 0, 0, 0.684);
+    border-radius: 20px;
+}
+
+.act{
+    display: grid; 
+    grid-template-columns: auto auto;
+    
+}
+
+.activitatileMele{
+    text-align: left;
+    padding-inline: 20px;
+}
+
+.activitatileMele h2{
+    color:rgb(94, 0, 0);
+    cursor: pointer;
+}
+
+.activitatileMele h2:hover{
+    color:rgb(255, 55, 0);
+}
+
+.activitatileMele:hover{
+    background-color:rgba(255, 235, 229, 0.85);
+}
+
+.activitati #btn1{
+    display: inline-block;
+    background-color:rgba(121, 0, 0, 0.684);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    width: 100px;
+    color: #ffffff;
+    text-align: center;
+    border: 4px double #cccccc;
+    font-size: 15px;
+    cursor: pointer; 
+    margin: 5px; 
+    border-radius: 10px;
+} 
+
+.activitati #btn1:hover {
+    background-color: #ff5900;
+}
